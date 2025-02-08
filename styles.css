@@ -1,0 +1,178 @@
+/* Basic reset to remove default margin and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Set a clean and readable font */
+    line-height: 1.6; /* Adjust line height for better readability */
+    background-color: #44a2b3; /* Light gray background color */
+    color: #333333; /* Dark gray text color for readability */
+}
+
+/* Header section styles */
+header {
+    background-color: #009688; /* Teal color for the header */
+    color: white; /* White text color */
+    padding: 20px 0; /* Vertical padding for header */
+    text-align: center; /* Center-align the header text */
+}
+
+/* Logo styling */
+.logo h1 {
+    font-size: 2rem; /* Set a large font size for the logo */
+    margin-bottom: 10px; /* Add some margin below the logo */
+}
+
+/* Navigation bar styling */
+nav {
+    text-align: center; /* Center-align the navigation links */
+}
+
+.nav-links {
+    list-style: none; /* Remove the default list style */
+    display: flex; /* Use flexbox to align the links horizontally */
+    justify-content: center; /* Center the navigation items */
+    padding: 10px 0; /* Vertical padding for the navigation */
+    background-color: #00796B; /* Dark teal background color */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Add space between navigation items */
+}
+
+.nav-link {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 1.2rem; /* Larger font size for visibility */
+    padding: 10px 15px; /* Padding around the links for better clickable area */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    background-color: #FF7043; /* Coral color when hovered */
+    color: rgb(255, 255, 255); /* Ensure text stays white on hover */
+}
+
+/* Hero section styles */
+.hero {
+    background: url('your-image.jpg') no-repeat center center/cover; /* Background image for hero section */
+    color: #000000; /* White text color for contrast */
+    padding: 80px 0; /* Add vertical padding to give space for content */
+    text-align: center; /* Center-align the text */
+}
+
+/* Hero section heading styling */
+.hero-text h2 {
+    font-size: 3rem; /* Large font size for the heading */
+    margin-bottom: 20px; /* Margin to create space below the heading */
+}
+
+/* Hero section paragraph styling */
+.hero-text p {
+    font-size: 1.5rem; /* Medium font size for the paragraph */
+    margin-bottom: 30px; /* Margin below the paragraph */
+}
+
+/* Call-to-action button styling */
+.cta-button {
+    background-color: #FF7043; /* Coral background for the button */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2rem; /* Font size for the button */
+}
+
+/* Button hover effect */
+.cta-button:hover {
+    background-color: #D45C39; /* Darker coral on hover */
+}
+
+/* About Us section styles */
+.about {
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center-align the text */
+    background-color: #fff; /* White background for the section */
+}
+
+/* Programs section styles */
+.programs {
+    background-color: #6aeb91; /* Light gray background */
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center-align the content */
+}
+
+.program-cards {
+    display: flex; /* Use flexbox to display cards horizontally */
+    justify-content: center; /* Center the program cards */
+    gap: 30px; /* Space between cards */
+}
+
+.program-card {
+    background-color: #fff; /* White background for each card */
+    padding: 20px; /* Padding inside the card */
+    width: 250px; /* Fixed width for the cards */
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+}
+
+.program-card h3 {
+    margin-bottom: 10px; /* Margin below the heading */
+}
+
+/* Service section styles */
+.services {
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center-align the content */
+    background-color: #db6969; /* White background */
+}
+
+.service-cards {
+    display: flex; /* Use flexbox to display service cards horizontally */
+    justify-content: center; /* Center the service cards */
+    gap: 30px; /* Space between the service cards */
+}
+
+.service-card {
+    background-color: #fff; /* White background for each service card */
+    padding: 20px; /* Padding inside the card */
+    width: 250px; /* Fixed width for the service cards */
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for the cards */
+}
+
+/* Footer section styles */
+footer {
+    background-color: #009688; /* Teal background for the footer */
+    color: white; /* White text color */
+    padding: 20px 0; /* Padding around the footer */
+    text-align: center; /* Center-align the footer content */
+}
+
+footer ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox to align the links horizontally */
+    justify-content: center; /* Center-align the links */
+    gap: 20px; /* Space between links */
+}
+
+footer ul li a {
+    color: white; /* White text color for social media links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Hover effect for social media links */
+footer ul li a:hover {
+    color: #FF7043; /* Coral color when hovered */
+}
+
+footer p {
+    margin-top: 20px; /* Add space above the copyright text */
+    font-size: 1rem; /* Set the font size */
+}

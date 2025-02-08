@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for character encoding, viewport settings, and compatibility with Internet Explorer -->
+    <meta charset="UTF-8"> <!-- Character encoding set to UTF-8 to handle various characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure the page is responsive on mobile -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Set compatibility for Internet Explorer -->
+
+    <!-- Title of the webpage displayed in the browser tab -->
+    <title>Fitness Hub - Your Path to Health and Wellness</title>
+
+    <!-- Link to the external CSS file for styling the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Connect the external CSS to the HTML document -->
+</head>
+
+<body>
+    <!-- Header Section containing the logo and navigation bar -->
+    <header>
+        <div class="logo">
+            <!-- Logo of the website displayed at the top left -->
+            <h1>Fitness Hub</h1> <!-- Main title of the fitness hub, acts as the brand name -->
+        </div>
+
+        <!-- Navigation bar with links to different sections of the page -->
+        <nav>
+            <ul class="nav-links">
+                <!-- List of navigation items, each representing a link to a section of the page -->
+                <li><a href="#home" class="nav-link">Home</a></li> <!-- Link to Home section -->
+                <li><a href="#about" class="nav-link">About Us</a></li> <!-- Link to About Us section -->
+                <li><a href="#programs" class="nav-link">Programs</a></li> <!-- Link to Programs section -->
+                <li><a href="#services" class="nav-link">Services</a></li> <!-- Link to Services section -->
+                <li><a href="#contact" class="nav-link">Contact</a></li> <!-- Link to Contact section -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with a large background image, a main headline, and a call-to-action button -->
+    <section id="home" class="hero">
+        <!-- Section with the ID 'home' for navigation purposes -->
+        <div class="hero-text">
+            <!-- Container for the text within the hero section -->
+            <h2>Get Fit, Stay Strong</h2> <!-- Main headline introducing the website's theme -->
+            <p>Your fitness journey starts here. Join our community and transform your life today!</p> <!-- Supporting text to motivate visitors -->
+            <a href="#contact" class="cta-button">Get Started</a> <!-- Call-to-action button linking to the Contact section -->
+        </div>
+    </section>
+
+    <!-- About Us Section describing the fitness hub's mission and vision -->
+    <section id="about" class="about">
+        <h2>About Us</h2> <!-- Subheading for the About Us section -->
+        <p>At Fitness Hub, we believe in helping individuals achieve their fitness goals through personalized training programs, expert coaching, and a supportive community.</p> <!-- Paragraph explaining the website's goals -->
+        <p>Whether you’re just starting your fitness journey or are a seasoned athlete, we provide a range of services to help you reach your goals faster and more effectively.</p> <!-- Additional explanation of services offered -->
+    </section>
+
+    <!-- Programs Section showcasing the different fitness programs available -->
+    <section id="programs" class="programs">
+        <h2>Our Programs</h2> <!-- Subheading for the Programs section -->
+        <div class="program-cards">
+            <!-- Container for the program cards, using flexbox to display them horizontally -->
+            <div class="program-card">
+                <!-- Individual card for a program -->
+                <h3>Personal Training</h3> <!-- Program name (e.g., personal training) -->
+                <p>One-on-one sessions tailored to your fitness goals and needs.</p> <!-- Description of the program -->
+            </div>
+            <div class="program-card">
+                <h3>Group Classes</h3> <!-- Program name (e.g., group classes) -->
+                <p>Join group workouts for a fun, motivating atmosphere with like-minded individuals.</p> <!-- Description of the program -->
+            </div>
+            <div class="program-card">
+                <h3>Online Coaching</h3> <!-- Program name (e.g., online coaching) -->
+                <p>Get coached remotely with virtual sessions and customized plans that fit your schedule.</p> <!-- Description of the program -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section describing additional services available -->
+    <section id="services" class="services">
+        <h2>Our Services</h2> <!-- Subheading for the Services section -->
+        <div class="service-cards">
+            <!-- Container for the service cards, displayed using flexbox -->
+            <div class="service-card">
+                <h3>Fitness Assessment</h3> <!-- Service name (e.g., fitness assessment) -->
+                <p>We start with an assessment to understand your current fitness level, so we can create the best plan for you.</p> <!-- Description of the service -->
+            </div>
+            <div class="service-card">
+                <h3>Nutrition Coaching</h3> <!-- Service name (e.g., nutrition coaching) -->
+                <p>Our nutrition experts provide personalized meal plans to complement your fitness routine.</p> <!-- Description of the service -->
+            </div>
+            <div class="service-card">
+                <h3>Recovery Programs</h3> <!-- Service name (e.g., recovery programs) -->
+                <p>We offer recovery plans and tools to help your body heal and stay strong.</p> <!-- Description of the service -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with a simple contact form for user inquiries -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2> <!-- Subheading for the Contact section -->
+        <p>If you have any questions or are ready to get started, reach out to us today!</p> <!-- Short description encouraging users to contact -->
+        <form action="#" method="POST">
+            <!-- Simple contact form with fields for name, email, and message -->
+            <input type="text" placeholder="Your Name" required> <!-- Input field for the user's name -->
+            <input type="email" placeholder="Your Email" required> <!-- Input field for the user's email -->
+            <textarea placeholder="Your Message" required></textarea> <!-- Textarea for the user's message -->
+            <button type="submit">Send Message</button> <!-- Submit button for the form -->
+        </form>
+    </section>
+
+    <!-- Footer Section with links to social media profiles and copyright information -->
+    <footer>
+        <div class="footer-links">
+            <!-- List of social media links -->
+            <ul>
+                <li><a href="#">Facebook</a></li> <!-- Facebook link -->
+                <li><a href="#">Instagram</a></li> <!-- Instagram link -->
+                <li><a href="#">Twitter</a></li> <!-- Twitter link -->
+                <li><a href="#">LinkedIn</a></li> <!-- LinkedIn link -->
+            </ul>
+        </div>
+        <p>&copy; 2025 Fitness Hub. All rights reserved.</p> <!-- Copyright text at the bottom of the footer -->
+    </footer>
+</body>
+
+</html>
