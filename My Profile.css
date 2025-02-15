@@ -137,6 +137,13 @@ button:hover {
     background-color: #555;
 }
 
+/* centering the image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
 
 .contact-info p {
     margin: 5px 0;
