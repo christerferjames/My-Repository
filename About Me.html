@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!-- the html tag goes next -->
 <html lang="en">
+     <!-- INFORMATION FOR THE BROWSER AND SEARCH ENGINE -->
 <head>
     <meta charset="UTF-8">
     <!-- adding a link to my css file -->
@@ -17,11 +19,55 @@
             <!-- Each one is a link to a differnet html page -->
             <li><a href="My Profile.html"> Home</a></li>
             <li><a href="Art work.html"> My Art</a></li>
-            <li><a href="About Me.html"> About Me</a></li>
+            <li><a href="About Me.html"> Contact Me</a></li>
             </ul>
         </nav>
             <!-- page hadder -->
-<body>
+<br>
+<div class="container">
+    <h2>We'd love to hear from you!</h2>
+    <form action="submit_form.php" method="POST">
+        <!-- input the name and label for -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <!-- input an email address and header for lable-->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <!-- input the message and label  -->
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <!-- the button to submit the message  -->
+        <button type="submit">Send Message</button>
+        <!-- was not able to get the message to work, will need to as for help or do more research -->
+    </form>
+</div>
+
+<br>
+<!-- using ther pharagrahe to center the audio sound -->
+<p>
+    <!-- adding sound to webpage -->
+    <audio controls autoplay>
+        <!--THis is an MP3 file-->
+        <source src="Gemini - The Soundlings.mp3" type="audio/mpeg">
+    </audio>
+</p>
+
+    <!-- I found this code that allows me to hide the audio contols form the webpage while browsing-->
+    <style>
+        audio::-webkit-media-controls {
+            display: none;
+        }
+    </style>
+    
+
+<br>
+<!-- adding a footer for all pages  -->
+<footer style="background-color: #76a580;">
+    <hr>
+    Author: Christerfer James<br>
+    Address: 123 Bomber Blvd, Base, USA<br>
+    &copy; copyright reserved<br>
+ </footer>
     
 </body>
 </html>
